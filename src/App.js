@@ -1,9 +1,7 @@
 
-import React, { Component,View,Text } from 'react';
-import './index.css';
+import React, { Component} from 'react';
 import _  from 'underscore';
 import Loading from './components/Loading';
-import styles from './App.css';
 
 
 class App extends Component {
