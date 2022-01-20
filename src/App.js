@@ -30,6 +30,7 @@ async componentDidMount() {
   
   try {
     const response = await fetch('/all');
+    console.log("response:",response);
   const body = await response.json();
   this.setState({words: body});
   this.setState({loading:false});
