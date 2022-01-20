@@ -2,7 +2,7 @@
 import React, { Component,View,Text } from 'react';
 import './index.css';
 import _  from 'underscore';
-import Loading from './Loading';
+import Loading from './components/Loading';
 import styles from './App.css';
 
 
